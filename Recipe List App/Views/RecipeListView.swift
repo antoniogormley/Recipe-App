@@ -8,9 +8,8 @@
 import SwiftUI
 
 struct RecipeListView: View {
-    //reference viewmodel
-    @ObservedObject var model  = RecipeModel()
     
+    @EnvironmentObject var model:RecipeModel 
     
     var body: some View {
 
